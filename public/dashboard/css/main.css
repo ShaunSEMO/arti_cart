@@ -1,0 +1,119 @@
+/* * {
+    border: 1px solid red;
+} */
+
+* {
+    color: white;
+}
+
+body {
+    background-color: #1e2645;
+}
+
+nav {
+    background-color: #00162d !important;
+}
+
+.card-header {
+    background: rgb(236, 43, 95);
+    background: linear-gradient(
+        90deg,
+        rgba(236, 43, 95, 1) 17%,
+        rgba(101, 30, 62, 1) 98%
+    );
+}
+
+.card-body {
+    background-color: #051e3e;
+}
+
+.card {
+    border: none !important;
+}
+
+.std-btn {
+    background: rgb(236, 43, 95);
+    background: linear-gradient(
+        90deg,
+        rgba(236, 43, 95, 1) 17%,
+        rgba(101, 30, 62, 1) 98%
+    );
+    border: none;
+}
+
+.crd-text-input {
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid #4f9ee8;
+    color: #4f9ee8;
+}
+
+.crd-text-input::placeholder {
+    color: #4f9ee8;
+}
+
+.crd-text-input:focus {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid #4f9ee8;
+    color: #4f9ee8;
+}
+
+.dashboard-content {
+    padding: 10px;
+}
+
+.side-menu {
+    background-color: #00162d !important;
+    border-radius: 10px;
+}
+
+.menu-icons {
+    color: #851e3e !important;
+}
+
+.list-group-item {
+    border-radius: 10px !important;
+    background-color: #1e2645;
+}
+
+.list-group-item:hover {
+    background-color: #00162d;
+}
+
+.menu-links {
+    color: white;
+    font-size: 18px;
+}
+
+.menu-links:hover {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.footer * {
+    color: white;
+}
+
+.footer-signage {
+    text-align: center;
+}
+
+.swbranding {
+    float: right;
+    font-size: 12px !important;
+}
+
+.spyder {
+    color: rgb(255, 0, 0);
+}
+
+.webs {
+    color: rgb(104, 232, 255);
+}
